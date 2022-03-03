@@ -1,0 +1,255 @@
+
+/*utiliser une police personnalisé */
+h1 {
+	font-family: 'creamcake', arial, sans-serif;
+	font-size: 3.5em;
+	margin-top: 0;
+	padding-top: 30px;
+
+	/*text-align: center;*/
+	/*background-color:#e8ebed ;*/
+	/*opacity: 0.7;*/
+	/*border: LARGEUR, COULEUR, TYPE DE BORDURE;*/
+	/*border: 1px b
+	lack dotted ;*/
+	/*color: white;*/
+	/*border-bottom: 2px silver solid;*/
+	/*bouton sombre*/
+	/*box-shadow: 0px 5px 20px silver inset;*/
+	/*text-shadow: 1px 1px 1px silver;*/
+	h1: over ;
+	}
+	/*quand la souris passe au dessus d'un éléments */
+	h1: active {
+		color:  red;
+
+	}
+
+	<span class="separator"></span>
+
+h2{
+	font-family: 'Roboto', arial;
+	text-align: center;
+	font-size: 1.5em;
+	margin: auto;
+	width: 400px;
+	padding-bottom: 30px;
+	overflow: auto ;
+	/*word-wrap: break-word;*/
+
+	/*color: white;*/
+	
+
+
+
+	/*border: 1px pink solid;*/
+	/* (bordure arrondi) border-radius: 50px pink;*/
+	
+
+	
+	}
+
+	
+
+header {
+	color: white;
+	background: #1D1D1D;
+	text-align: center;
+	padding-bottom: 30px;
+
+
+	/*border-bottom: 10px silver solid;*/
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:focus{
+	color: darkred;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background:#1D1D1D;
+	color black;
+
+}
+
+section{
+		text-align: center;
+		color: white;
+	}
+
+#bienvenue {
+	color: black;
+
+	font-size: 1em;
+}
+
+.bienvenue {
+	color: black;
+	font-size:1em ;
+}
+
+h3:before{
+	content: " « ";
+	color: grey;
+}
+h3:after{
+	content:" » ";
+	color: grey;
+}
+h3 {
+	
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+
+	font-family: 'Roboto', arial;
+	/*mettre en majuscule*/
+	text-transform: uppercase;
+}
+
+nav{
+	text-align: center;
+	background: #7d7d7d;
+	box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+	border-bottom: 10px silver solid;
+	padding:5px ;
+	font-size: 1.1em;
+	
+
+	/*position: relative;
+	left: 10px;
+	right: 0px;*/
+	
+}
+
+ul{
+/*padding: 0;*/
+display: inline;
+
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	margin: 10px;
+}
+li:hover {
+	font-weight: bold;
+}
+/*pour calquer à l'interface téléphone*/
+*{
+	box-sizing: border-box;
+}
+
+footer {
+		text-align: center;
+		background: #1D1D1D;
+		color: white;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		/*border-radius: 15px;*/
+
+}
+#contact{
+			border: 1px white solid; 
+			border-radius: 15px;
+			padding: 30px;
+			margin-bottom: 50px;
+			text-align: center;
+			color: white;
+		}
+/*POLICE*/
+
+@font-face {
+	font-family: 'creamcake';
+	src: url('../src/creamcake.otf') format('truetype');
+	/*s src: url('../src/creamcake.otf') format('truetype');
+	url('../src/creamcake.eot') format('eot');
+	url('../src/creamcake.svg') format('svg');*/
+}
+
+
+
+#logo{
+	/*float: right ;*/
+	margin-top: 30px;
+	width: 50px;
+}
+
+#projet{
+	display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+
+
+
+}
+
+.separator {
+	width: 40px;
+	height: 1px;
+	margin:15px auto ;
+	display: block;
+	
+	background:#999999 ;
+}
+
+.contener {
+	width: 80%;
+	margin: auto;
+
+}
+
+.projet {
+width: 400px;
+margin: 30px;
+display: inline-block;
+background:black;
+padding-bottom: 15px;
+color: white;
+border: 0px black solid;
+border-radius:10px ;
+overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+projet:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:0.2s;
+}
+
+.projet img {
+	min-width: 400px;
+	height: 266px;
+
+}
+
+.projet span{
+	text-transform: uppercase;
+	display:block ;
+	color: white;
+}
+
+.projet date-project{
+	font-size: 0.7em;
+}
+
+.picture {
+width: 400px;
+height: 266px;
+overflow: hidden;
+margin-bottom: 15px;
+
+
+
+
+
+/*font-weight: bold;
+	font-style: italic;
+	text-align: center;*/
